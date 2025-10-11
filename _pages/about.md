@@ -1,58 +1,63 @@
----
+好的，我已经根据您上传的 `CV-dwzhang-zh.tex` 文件，为您生成了一份个人学术主页的介绍。
+
+-----
+
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
-redirect_from: 
+author\_profile: true
+redirect\_from:
+
   - /about/
   - /about.html
----
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+-----
+
+{% if site.google\_scholar\_stats\_use\_cdn %}
+{% assign gsDataBaseUrl = "[https://cdn.jsdelivr.net/gh/](https://cdn.jsdelivr.net/gh/)" | append: site.repository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "[https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)" | append: site.repository | append: "/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs\_data\_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+\<span class='anchor' id='about-me'\>\</span\>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Dingwen Zhang (张丁文) is a junior undergraduate at Guizhou University. I’m honored to have been mentored during my studies by Qi Wang (王崎) and Panfeng Chen (陈攀峰), working on knowledge graphs, graph neural networks, and large language models.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+My research interests include knowledge graphs, graph neural networks, and their applications in the legal and agricultural fields.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+  - *2024.06*:  🎉🎉 Our project, "Research on Knowledge Graph Construction and Link Prediction for Global Pesticide Repurposing Discovery," has been initiated.
+  - *2024.05*:  🎉🎉 I was awarded the Provincial Silver Award in the 17th "Challenge Cup" College Student Entrepreneurship Plan Competition at Guizhou University.
+  - *2024.05*:  🎉🎉 I won the Provincial First Prize in the 15th Blue Bridge Cup National Software and Information Technology Professional Competition.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Projects
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+### **Research on Knowledge Graph Construction and Link Prediction for Global Pesticide Repurposing Discovery**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+  * **负责人 (Project Lead)**, 2024.06 – 2025.06
+  * Crawled pesticide registration data from major agricultural countries and institutions, cleaned the data, and constructed a global pesticide knowledge graph using Neo4j.
+  * Trained knowledge graph embedding models (TransE) for link prediction, achieving a Hit@10 of 0.54 and 0.31 in different settings.
+  * The pre-trained model is used to predict new targets for existing pesticides, providing a scientific basis for pesticide repurposing experiments.
+  * **Project Link**: [pesticide-repurposing.samlab.cn](http://pesticide-repurposing.samlab.cn/)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+### **Interpretable Judicial Judgment Prediction Method Based on Legal Article Constraints and Case Fusion**
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+  * **负责人 (Project Lead)**, 2025.03 – 2025.06
+  * This project addresses the issues of "hallucination" and insufficient legal knowledge in large language models for judicial judgment prediction.
+  * We propose a method that incorporates external legal knowledge to guide the LLM in extracting key facts from cases.
+  * The method utilizes Retrieval-Augmented Generation (RAG) from a database of legal articles and historical cases to improve the accuracy and interpretability of predictions.
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+  - *2024.05* Provincial Silver Award, Guizhou University "Xishan Cup" 17th "Challenge Cup" College Student Entrepreneurship Plan Competition
+  - *2024.05* Provincial First Prize, 15th Blue Bridge Cup National Software and Information Technology Professional Competition
+  - *2023.12* National Scholarship
+  - *2023.10* Provincial Third Prize, China Collegiate Computer Design Competition
+  - *2023.08* National Third Prize, "China Software Cup" College Student Software Design Competition
+  - *2023.06* President's Special Scholarship, Guizhou University
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+  - *2022.09 - 2026.06*: Computer Science, Guizhou University
