@@ -127,6 +127,12 @@ defaults:
       layout: default
       author_profile: true
 
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 
 # Sass/SCSS
 sass:
