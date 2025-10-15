@@ -18,19 +18,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Dingwen Zhang (张丁文) is a junior undergraduate at Guizhou University. I’m honored to have been mentored during my studies by Qi Wang (王崎) and Panfeng Chen (陈攀峰), and I am also deeply grateful for the guidance and support from Lihui Wang (王丽会)，Guowei Shen (申国伟) and Ruizhang Huang (黄瑞章).
+# About Me
+Dingwen Zhang (张丁文) is a senior undergraduate at Guizhou University. I’m honored to have been mentored during my studies by Qi Wang (王崎) and Panfeng Chen (陈攀峰), and I am also deeply grateful for the guidance and support from Lihui Wang (王丽会)，Guowei Shen (申国伟) and Ruizhang Huang (黄瑞章).
 
 My research interests include Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Multi-agent systems, with applications.
 
-<span class='anchor' id='News'></span>
-# 🔥 News
-
-- *2024.06*: 🎉🎉 Our project, "Research on Knowledge Graph Construction and Link Prediction for Global Pesticide Repurposing Discovery," has been initiated.
-- *2024.05*: 🎉🎉 I was awarded the Provincial Silver Award in the 17th "Challenge Cup" College Student Entrepreneurship Plan Competition at Guizhou University.
-- *2024.05*: 🎉🎉 I won the Provincial First Prize in the 15th Blue Bridge Cup National Software and Information Technology Professional Competition.
 
 <span class='anchor' id='Projects'></span>
-# 📝 Projects
+
+# Projects
 
 ### **Research on Knowledge Graph Construction and Link Prediction for Global Pesticide Repurposing Discovery**
 
@@ -48,16 +44,18 @@ My research interests include Large Language Models (LLMs), Retrieval-Augmented 
 - The method utilizes Retrieval-Augmented Generation (RAG) from a database of legal articles and historical cases to improve the accuracy and interpretability of predictions.
 
 <span class='anchor' id='Honors'></span>
-# 🎖 Honors and Awards
+
+# Honors and Awards
 
 - *2024.05* Provincial Silver Award, Guizhou University "Xishan Cup" 17th "Challenge Cup" College Student Entrepreneurship Plan Competition
 - *2024.05* Provincial First Prize, 15th Blue Bridge Cup National Software and Information Technology Professional Competition
-- *2023.12* National Scholarship
+- *2023.12* Dabeinong Scholarship
 - *2023.10* Provincial Third Prize, China Collegiate Computer Design Competition
 - *2023.08* National Third Prize, "China Software Cup" College Student Software Design Competition
 - *2023.06* President's Special Scholarship, Guizhou University
 
 <span class='anchor' id='Educations'></span>
-# 📖 Educations
+
+# Educations
 
 - *2022.09 - 2026.06*: Computer Science, Guizhou University
