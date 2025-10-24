@@ -44,15 +44,19 @@ My research interests include Large Language Models (LLMs), Retrieval-Augmented 
 - The method utilizes Retrieval-Augmented Generation (RAG) from a database of legal articles and historical cases to improve the accuracy and interpretability of predictions.
 
 <span class='anchor' id='Honors'></span>
-
 # Honors and Awards
 
-- *2024.05* Provincial Silver Award, Guizhou University "Xishan Cup" 17th "Challenge Cup" College Student Entrepreneurship Plan Competition
-- *2024.05* Provincial First Prize, 15th Blue Bridge Cup National Software and Information Technology Professional Competition
-- *2023.12* Dabeinong Scholarship
-- *2023.10* Provincial Third Prize, China Collegiate Computer Design Competition
-- *2023.08* National Third Prize, "China Software Cup" College Student Software Design Competition
-- *2023.06* President's Special Scholarship, Guizhou University
+- **2023-06**: American College Student Mathematics Modeling Contest Honorable Mention
+- **2023-12**: National College Student Mathematical Contest First Prize
+-  **2023-12**: China College Student Engineering Practice and Innovation Skills Competition Silver Award
+- **2024-05**: Lanqiao Cup Software Competition Provincial Second Prize
+- **2024-06**: Shenzhen Cup Mathematical Modeling Challenge Excellent Paper Award
+- **2024-09**: 2024 National College Student Mathematical Modeling Contest Provincial Second Prize
+- **2024-12**: DaBeiNong Scholarship
+- **2025-06**: Huawei ICT Competition Global First Prize
+- **2025-06**: China College Student Computer Design Competition Provincial Excellent Award
+
+
 
 <span class='anchor' id='Educations'></span>
 
