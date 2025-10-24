@@ -48,14 +48,13 @@ My research interests include Large Language Models (LLMs), Retrieval-Augmented 
 
 - **2023-06**: American College Student Mathematics Modeling Contest Honorable Mention
 - **2023-12**: National College Student Mathematical Contest First Prize
--  **2023-12**: China College Student Engineering Practice and Innovation Skills Competition Silver Award
+- **2023-12**: China College Student Engineering Practice and Innovation Skills Competition Silver Award
 - **2024-05**: Lanqiao Cup Software Competition Provincial Second Prize
 - **2024-06**: Shenzhen Cup Mathematical Modeling Challenge Excellent Paper Award
 - **2024-09**: 2024 National College Student Mathematical Modeling Contest Provincial Second Prize
 - **2024-12**: DaBeiNong Scholarship
 - **2025-06**: Huawei ICT Competition Global First Prize
 - **2025-06**: China College Student Computer Design Competition Provincial Excellent Award
-
 
 
 <span class='anchor' id='Educations'></span>
