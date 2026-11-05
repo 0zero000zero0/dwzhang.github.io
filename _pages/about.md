@@ -20,7 +20,7 @@ redirect_from:
 
 # About Me
 
-Dingwen Zhang (张丁文) is a graduate student at the [NEUIR Lab](https://neuir.github.io/), Northeastern University. He received his bachelor's degree from Guizhou University. I’m honored to have been mentored during my studies by Qi Wang (王崎) and Panfeng Chen (陈攀峰).
+Dingwen Zhang is a graduate student at the [NEUIR Lab](https://neuir.github.io/), Northeastern University. He received his bachelor's degree from Guizhou University. I’m honored to have been mentored during my studies by Qi Wang and Panfeng Chen.
 
 My research interests include Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Multi-agent systems, with applications.
 

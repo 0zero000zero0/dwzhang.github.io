@@ -1,22 +1,16 @@
-{% assign lang = page.lang | default: 'en' %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">{% if lang == 'zh' %}首页{% else %}Homepage{% endif %}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{% if lang == 'zh' %}{{ link.title_zh | default: link.title }}{% else %}{{ link.title }}{% endif %}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-    {% if lang == 'zh' %}
-      <a class="lang-switch" href="{{ '/' | relative_url }}" hreflang="en" title="Switch to English">EN</a>
-    {% else %}
-      <a class="lang-switch" href="{{ '/zh/' | relative_url }}" hreflang="zh" title="切换到中文">中文</a>
-    {% endif %}
   </div>
 </div>
