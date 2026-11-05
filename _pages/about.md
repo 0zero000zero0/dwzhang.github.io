@@ -3,11 +3,11 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
 redirect_from:
   - /about/
   - /about.html
 ---
-
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
@@ -19,14 +19,16 @@ redirect_from:
 <span class='anchor' id='About-Me'></span>
 
 # About Me
-Dingwen Zhang (张丁文) is a senior undergraduate at Guizhou University. I’m honored to have been mentored during my studies by Qi Wang (王崎) and Panfeng Chen (陈攀峰), and I am also deeply grateful for the guidance and support from Lihui Wang (王丽会)，Guowei Shen (申国伟) and Ruizhang Huang (黄瑞章).
+
+Dingwen Zhang (张丁文) is a graduate student at the [NEUIR Lab](https://neuir.github.io/), Northeastern University. He received his bachelor's degree from Guizhou University. I’m honored to have been mentored during my studies by Qi Wang (王崎) and Panfeng Chen (陈攀峰).
 
 My research interests include Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Multi-agent systems, with applications.
-
 
 <span class='anchor' id='Projects'></span>
 
 # Projects
+
+## Undergraduate Projects
 
 ### **Research on Knowledge Graph Construction and Link Prediction for Global Pesticide Repurposing Discovery**
 
@@ -43,7 +45,19 @@ My research interests include Large Language Models (LLMs), Retrieval-Augmented 
 - We propose a method that incorporates external legal knowledge to guide the LLM in extracting key facts from cases.
 - The method utilizes Retrieval-Augmented Generation (RAG) from a database of legal articles and historical cases to improve the accuracy and interpretability of predictions.
 
+## Master's Projects
+
+### **MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation**
+
+- **Co-author**, arXiv 2026
+- RAG methods that interleave reasoning and retrieval can suffer from redundant or ineffective sub-queries and insufficiently diverse query exploration, leading to query-intent drift.
+- We introduce *search momentum* to characterize how query intent evolves along the reasoning trajectory, and propose MAPS, a macro-adaptive parallel reasoning framework that regulates search momentum.
+- MAPS retains the retrieved knowledge and a refined reasoning state, then extends sequential reasoning into a parallel reasoning paradigm that generates complementary sub-queries for parallel retrieval.
+- Experiments on six question-answering benchmarks show that MAPS consistently outperforms representative RAG methods across different backbone models.
+- **Paper**: [arXiv:2610.29792](https://arxiv.org/abs/2610.29792) &nbsp;|&nbsp; **Code**: [github.com/NEUIR/MAPS](https://github.com/NEUIR/MAPS)
+
 <span class='anchor' id='Honors'></span>
+
 # Honors and Awards
 
 - **2023-06**: American College Student Mathematics Modeling Contest Honorable Mention
@@ -56,9 +70,9 @@ My research interests include Large Language Models (LLMs), Retrieval-Augmented 
 - **2025-06**: Huawei ICT Competition Global First Prize
 - **2025-06**: China College Student Computer Design Competition Provincial Excellent Award
 
-
 <span class='anchor' id='Educations'></span>
 
 # Educations
 
+- *2026.09 - Present*: School of Computer Science and Engineering, Northeastern University
 - *2022.09 - 2026.06*: Computer Science, Guizhou University

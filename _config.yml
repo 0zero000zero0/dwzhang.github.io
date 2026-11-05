@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Dingwen Zhang"
-description              : "GZU Undergraduate & NEUIR"
+description              : "Graduate Student at NEUIR Lab, Northeastern University"
 repository               : "0zero000zero0/dwzhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Dingwen Zhang"
   avatar           : "images/android-chrome-492x492.png"
-  bio              : "Guizhou Univerity"
-  location         : "Guizhou, China"
+  bio              : "NEUIR Lab, Northeastern University"
+  location         : "Shenyang, China"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "cse.dwzhang22@gzu.edu.cn"
+  email            : "zhangdingwen@mails.neu.edu.cn"
+  email_alt        : "cse.dwzhang22@gzu.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Dingwen-Zhang-9" # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
